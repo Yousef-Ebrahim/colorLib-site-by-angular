@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.photo {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.name {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.job {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 800;
+}
+.job a {
+  color: rgba(19, 51, 235, 0.555);
+  cursor: pointer;
+}
+
+#viewport {
+  padding-left: 250px;
+  padding-top: 60px;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -150px;
+  overflow-y: auto;
+  background: rgb(183, 220, 238);
+  background: radial-gradient(
+    circle,
+    rgba(183, 220, 238, 1) 18%,
+    rgba(213, 212, 228, 1) 100%
+  );
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #b7dcee;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #161616;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: rgba(19, 51, 235, 0.555);
+}
+.nav {
+  padding: 35px;
+  cursor: pointer;
+}
+.nav li {
+  margin-top: -20px;
+}
+
+#sidebar .nav {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sidebar .nav li {
+  padding: 1px 12px;
+}
+#sidebar .nav li a {
+  background: none;
+  color: #413d3d;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+    transition: all .2s;
+
+}
+.active {
+  color: rgba(5, 42, 250, 0.555);
+  text-decoration: underline;
+}
+#sidebar .nav li :hover {
+  background: none;
+  color: rgba(10, 10, 10, 0.555);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+#sidebar .nav a i {
+  margin-right: 16px;
+}
+#sidebar p {
+  margin-right: 16px;
+  font-size: 15px;
+}
+.active-link {
+  color: rgba(5, 42, 250, 0.555);
+  text-decoration: underline;
+}

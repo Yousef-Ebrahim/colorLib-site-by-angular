@@ -1,0 +1,42 @@
+.container {
+  margin: 9rem 23rem;
+  height: 100vh;
+  width: 140vh;
+}
+.title {
+  font-size: 1.1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 3px;
+  color: darkgray;
+}
+.title2 {
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 7px;
+  color: rgba(12, 12, 12, 0.74);
+  font-weight: bolder;
+}
+.text {
+  color: rgb(117, 116, 116);
+}
+
+.box {
+  width: 185px;
+  height: 175px;
+  border-bottom: 3px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.box1 {
+  border-bottom: 3px solid red;
+}
+.box2 {
+  border-bottom: 3px solid yellow;
+}
+.box3 {
+  border-bottom: 3px solid purple;
+}

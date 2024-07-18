@@ -1,0 +1,59 @@
+<div class="container" id="viewport">
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <header>
+      <img
+        class="photo"
+        src="https://cdn.pixabay.com/photo/2015/07/20/13/01/man-852770_1280.jpg"
+        alt=""
+      />
+    </header>
+    <h2 class="name">YOUSSEF EBRAHIM</h2>
+    <h3 class="job"><a>FRONT-END-DEVELOPER <br></a> IN UPSKILLING</h3>
+    <ul class="nav">
+      <li>
+        <a
+          class=""
+          [routerLink]="['/home-content']"
+          [routerLinkActive]="['active-link']"
+        >
+          HOME
+        </a>
+      </li>
+      <li>
+        <a (click)="navigate('/about')" [routerLinkActive]="['active-link']">
+          ABOUT
+        </a>
+      </li>
+      <li>
+        <a (click)="navigate('/services')" [routerLinkActive]="['active-link']">
+          SERVICES
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/experience']" [routerLinkActive]="['active-link']">
+          EXPERIENCE
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/work']" [routerLinkActive]="['active-link']">
+          WORK
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/blog']" [routerLinkActive]="['active-link']">
+          BLOG
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/contact']" [routerLinkActive]="['active-link']">
+          CONTACT
+        </a>
+      </li>
+    </ul>
+    <P class="text-center"
+      >© Copyright ©2024 All rights reserved | This template is made with by
+      Colorlib Demo Images: Unsplash.com
+    </P>
+  </aside>
+</div>

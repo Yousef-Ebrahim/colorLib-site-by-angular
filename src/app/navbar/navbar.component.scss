@@ -1,0 +1,69 @@
+.logo {
+  color: rgb(182, 195, 206);
+  width: 140px;
+  height: 30px;
+}
+.spacer {
+  flex: 1;
+}
+.toolbar {
+  position: fixed;
+  max-height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  font-weight: 600;
+  z-index: 9999;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
+.joe {
+  background-color: rgba(0, 0, 0, 0.534);
+  height: 75px;
+  width: 140px;
+  font-family: open sans;
+  color: #9b9b9b;
+  font-size: 25px;
+  padding: 25px 25px;
+}
+.icons {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+.icons li a {
+  color: #9b9b9b;
+  font-size: 65px;
+  border: 0.3px solid #9b9b9b56;
+}
+.icons li a:hover {
+  background-color: #080808;
+}
+.bg a {
+  background-color: rgba(128, 255, 0, 0.788);
+ 
+}
+.bg i {
+  color: white;
+}
